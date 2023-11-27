@@ -1,0 +1,17 @@
+name: 'DevConnect'
+type: theme
+description: 'A theme of DevConnect'
+core_version_requirement: ^8 || ^9
+base theme: olivero
+libraries:
+  - devconnect/global-styling
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_title: 'Page title'
+  content: Content
+  content_bottom: 'Content Bottom'
+  sidebar_first: 'Left sidebar'
+  footer: Footer
+  copyright: Copyright
