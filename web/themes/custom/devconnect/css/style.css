@@ -253,9 +253,18 @@ p.home-title {
   margin-bottom: 0px !important;
 }
 
+.flex-control-paging li a {
+  border: 3px solid #fff;
+  background-color: transparent;
+}
 .flex-control-paging li a.flex-active {
-  /* color: # !important; */
-  background-color: #009688 !important;
+  background-color: #fff !important;
+}
+.flex-control-paging li a.flex-active:hover{
+  border-color: none !important;
+}
+.flex-control-paging li a:hover {
+  background-color: #fff !important;
 }
 
 .flex-control-paging li a {
